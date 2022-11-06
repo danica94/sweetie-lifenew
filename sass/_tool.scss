@@ -1,0 +1,56 @@
+.checked {
+  color: orange;
+}
+
+.tool_container{
+  max-width: 1400px;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+
+.text{
+  flex-wrap: wrap;
+  display:center;
+  justify-content:center;
+  padding:40px;
+}
+.toolbody{
+  max-width: 1400px;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.bodyimg{
+  padding:20px;
+    justify-content: center;
+    display:grid;
+    // grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    // grid-gap:auto;
+}
+.button{
+  background-color:#ffc6e8;;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.button:hover
+{
+  background-color:#A7664E;
+}
+.bodycontext{
+  padding: 40px;
+}
+@media screen and (min-width: 500px){
+
+.tool_container{
+  grid-template-columns: repeat(2, 1fr);
+}
+  }
